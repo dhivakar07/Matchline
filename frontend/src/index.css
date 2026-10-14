@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Login Page */
+.login_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.login_header {
+  width: 60%;
+  height: 100%;
+  background-color: #1c5a50;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login_brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #1A1D24;
+  margin: 0;
+}
+
+.login_brand-icon {
+  flex-shrink: 0;
+}
+
+.login_para {
+  color: rgba(255, 255, 255, 0.817);
+  margin-bottom: 200px;
+}
+
+.login_para h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.login_para p {
+  font-size: 16px;
+}
+
+.login_box {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F8EFDD;
+  padding: 60px 30px;
+}
+
+.login_box header {
+  margin-bottom: 40px;
+}
+
+.login_box header h3 {
+  font-size: 30px;
+}
+
+.login_box header p {
+  font-size: 18px;
+  color: #5B5F6B;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login_form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login_form-input label {
+  font-size: 18px;
+}
+
+.login_email-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.login_email-input {
+  border: #D9A441 solid 1px;
+  border-radius: 15px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.login_password-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.login_password-input {
+  border: #D9A441 solid 1px;
+  border-radius: 15px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.f_pass {
+  text-align: end;
+  color: #1c5a50;
+  cursor: pointer;
+}
+
+.login_btn {
+  height: 40px;
+  background-color: #1c5a50;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.login_btn:hover {
+  background-color: #1c5a50dc;
+}
+
+.login_footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Signup page */
+
+.signup_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.signup_header {
+  width: 60%;
+  height: 100%;
+  background-color: #1c5a50;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.signup_brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #1A1D24;
+  margin: 0;
+}
+
+.signup_brand-icon {
+  flex-shrink: 0;
+}
+
+.signup_para {
+  color: rgba(255, 255, 255, 0.817);
+  margin-bottom: 200px;
+}
+
+.signup_para h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.signup_para p {
+  font-size: 16px;
+}
+
+.signup_box {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F8EFDD;
+  padding: 60px 30px;
+}
+
+.signup_box header {
+  margin-bottom: 40px;
+}
+
+.signup_box header h3 {
+  font-size: 30px;
+}
+
+.signup_box header p {
+  font-size: 18px;
+  color: #5B5F6B;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.options_selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.option_box {
+  padding: 15px;
+  border: lightgray solid 2px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.option_box:hover {
+  background-color: #6dddca97;
+  border: #1c5a50 solid 2px;
+  cursor: pointer;
+}
+
+.signup_form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.signup_form-input label {
+  font-size: 18px;
+}
+
+.signup_fullname-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.signup_fullname-input {
+  border: #D9A441 solid 1px;
+  border-radius: 15px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.signup_email-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.signup_email-input {
+  border: #D9A441 solid 1px;
+  border-radius: 15px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.signup_password-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.signup_password-input {
+  border: #D9A441 solid 1px;
+  border-radius: 15px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.signup_btn {
+  height: 40px;
+  background-color: #1c5a50;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.signup_btn:hover {
+  background-color: #1c5a50dc;
+}
+
+.signup_footer {
+  margin-top: 30px;
+  text-align: center;
+}
